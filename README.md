@@ -64,7 +64,7 @@ data/amp_sequences.fasta
 
 ### 1. Train the model
 ```bash
-python amp_predictor.py
+python build_amp_predictor.py
 ```
 This will:
 - Download non-AMP sequences (first run only)
@@ -155,7 +155,7 @@ Confidence: 96.40%
 ## 📁 Project Structure
 Antimicrobial-Peptide-Predictor/
 
-├── amp_predictor.py       # Data download, feature extraction, training pipeline
+├── build_amp_predictor.py       # Data download, feature extraction, training pipeline
 
 ├── app.py                  # Streamlit prediction app
 
